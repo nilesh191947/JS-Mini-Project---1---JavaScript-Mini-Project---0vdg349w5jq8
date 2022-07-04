@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #ffffff;
+    background: repeating-linear-gradient(blue, yellow, purple);
 }
 
 .mainContainer {
@@ -20,6 +20,7 @@ body {
 }
 
 .Evey {
+
     font-size: 1.5rem;
     color: black;
     margin-left: 20px;
@@ -28,7 +29,7 @@ body {
 .container {
     border-radius: 5px;
     padding: 0.3rem;
-    background-color: #ffffff;
+    background-color: #07393C;
     display: grid;
     grid-template: repeat(9, 50px) / repeat(9, 50px);
     grid-gap: 3px;
@@ -41,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    background: #d8d8d8;
+    background: chocolate;
     width: 200px;
     font-size: 1.3rem;
     border-radius: 1rem;
@@ -51,7 +52,7 @@ body {
 .right button {
     border: 2px solid black;
     color: black;
-    background: #f2f2f2;
+    background: aqua;
     cursor: pointer;
     font-size: 1rem;
     padding: 0.5rem 2rem;
@@ -60,12 +61,12 @@ body {
 
 .cell {
     border-radius: 3px;
-    background-color: #d8d8d8;
+    background-color: #90DDF0;
     cursor: pointer;
 }
 
 .safe {
-    background-color: #2dcc70;
+    background-color: greenyellow;
 }
 
 .containBomb {
